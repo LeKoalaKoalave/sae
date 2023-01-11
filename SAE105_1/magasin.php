@@ -11,13 +11,61 @@ include('helpers/magasinHelper.php');  // WARNING : NE PAS EFFACER CETTE LIGNE
 <!doctype html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8">
-        <title>The Computer Shop</title>
-        <link rel="stylesheet" href="assets/site/style.css">
+    <meta charset="utf-8">
+    <title>The Computer Shop</title>
+    <link rel="stylesheet" href="assets/site/style.css">
+    <link rel="stylesheet" href="assets/site/normalize.css">
     </head>
 
     <body>
+    <header>
+    <div class="header1">
+          <img src="assets/site/logo-white.png" height="109.75" width="250">
+          <a class="takecare"> We take care of your feet</a>
+      </div>
+      <div class="header2">
+        <a href="#">Acceuil</a>
+        <a href="#">Le shop</a>
+          <a href="#">Nos magasins</a>
+          <a href="#">Nous contacter </a>
+      </div>
+    </header>
+    <div class="mid">
+        <div class="central">
+                <div class="produit">
+                    <div class="photo">
+                        <a><img src="assets/produits/sneakers1.jpeg" height="140px"></a>
+                    </div>
+                    <div class="text">
+                        <H1>Air jordan</H1>
+                        <p>Lorem ipsum dolor sit amet. Est earum iusto aut corrupti dolores quo delectus tempore ut culpa architecto a distinctio galisum sit beatae enim vel dolores omnis. Ut quae deleniti ut accusantium molestiae et pariatur odio aut modi repellendus. Cum modi suscipit aut velit saepe 33 autem repudiandae Est earum iusto aut corrupti dolores quo delectus tempore ut culpa architecto a distinctio galisum sit beatae enim vel dolores omnis. Ut quae deleniti ut accusantium molestiae et pariatur odio aut modi repellendus. Cum modi suscipit aut velit saepe 33 autem. </p>
+                    </div>
+                    <div class="price">
+                        <a>prix</a>
+                        <a><img src="assets/site/buy.png" height="50px" width="40px"></a>
+                    </div>
+                </div>
+                
+        </div>
+        <div class="central">
+                <div class="produit">
+                    <div class="photo">
+                        <a><img src="assets/produits/sneakers1.jpeg" height="140px"></a>
+                    </div>
+                    <div class="text">
+                        <H1>Air jordan</H1>
+                        <p>Lorem ipsum dolor sit amet. Est earum iusto aut corrupti dolores quo delectus tempore ut culpa architecto a distinctio galisum sit beatae enim vel dolores omnis. Ut quae deleniti ut accusantium molestiae et pariatur odio aut modi repellendus. Cum modi suscipit aut velit saepe 33 autem repudiandae Est earum iusto aut corrupti dolores quo delectus tempore ut culpa architecto a distinctio galisum sit beatae enim vel dolores omnis. Ut quae deleniti ut accusantium molestiae et pariatur odio aut modi repellendus. Cum modi suscipit aut velit saepe 33 autem. </p>
+                    </div>
+                    <div class="price">
+                        <a>prix</a>
+                        <a><img src="assets/site/buy.png" height="50px" width="40px"></a>
+                    </div>
+                </div>
+                
+        </div>
 
+    </div>
+        
 
             <?php
             //j'affiche mes produits
