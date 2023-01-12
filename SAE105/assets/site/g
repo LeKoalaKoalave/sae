@@ -1,0 +1,18 @@
+#notification-button {
+    position: relative; /* for positioning the badge */
+  }
+  #notification-button::after {
+    content: ""; /* clear the content */
+    position: absolute; /* position the badge */
+    top: -10px; /* position relative to the button */
+    right: -10px;
+    background: red; /* color of the badge */
+    width: 20px; /* size of the badge */
+    height: 20px;
+    border-radius: 50%; /* make it circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: white;
+  }f

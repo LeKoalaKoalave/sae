@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'prima-sansregular';
+    font-size: 99%;
+}
+
+@font-face {
+    font-family: 'prima_sansregular';
+    src: url(../../font/prima_sans_regular-webfont.woff2) format('woff2'),
+         url(font/prima_sans_regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+
+
+/* Header */
+
+header {
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+header p{
+    color: #28BC2F;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .bouton_gauche {
+    display: flex;
+}
+
+.bouton_gauche a{
+    padding: 5px 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #BC2F26;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .panier a{
+    text-decoration: none;
+    color: #27B4BC;
+}
+
+.panier{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+/* Shop */
+
+.shop {
+    width: 60%;
+    border: #878787 solid 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 0.4rem;
+}
+
+.shop_gauche{
+    width: 20%;
+    height: 100%;
+    margin-top: 25px;
+    margin-left: 1rem;
+}
+
+.shop_middle {
+    width: 65%;
+    padding: 1rem;
+}
+
+.shop_middle a{
+    color: #494949;
+    text-decoration: none;
+    font-size: 180%;
+    font-weight: 700;
+}
+
+.shop_middle p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.produit{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.shop_droite {
+    width: 15%;
+    border-left: solid rgb(196, 196, 196) 2px;
+}
+
+.shop_droite p{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-weight: 700;
+}
+
+.shop_droite img{
+    background-color: #27B4BC;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 2.5rem;
+    padding: 5px;
+    margin-bottom: 30%;
+}
