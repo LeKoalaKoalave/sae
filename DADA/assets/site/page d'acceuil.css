@@ -1,0 +1,141 @@
+*{
+    font-family: 'prima_sansregular';
+  }
+  
+  @font-face {
+    font-family: 'prima_sansregular';
+    src: url(../../font/prima_sans_regular-webfont.woff2) format('woff2'),
+         url(../../font/prima_sans_regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+.article{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 5rem;
+  text-decoration: none;
+}
+
+.index{
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.ajouter_panier{
+  background-color: #BC2F26;
+  padding: 1.5rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  width: 15%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-weight: bold;
+}
+
+.info{
+  margin-left: 4rem;
+  display: block;
+}
+
+.info h3{
+  padding-bottom: 1rem;
+}
+
+.index img{
+  justify-content: left;
+}
+
+.index{
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.info{
+  display: block;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  line-height: 150%;
+}
+
+.info h1{
+  color: #BC2F26;
+  font-size: 2rem;
+}
+
+.body{
+  background-color: rgb(245, 245, 245);
+}
+
+.avis{
+  margin-left: 0.6rem;
+}
+
+.avis{
+  padding-top: 5rem;
+}
+
+.shoe{
+  padding: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-weight: bold;
+  align-items: center;
+  text-align: left;
+  padding-bottom: 5rem;
+}
+
+.prod_sim img{
+  max-height: 250px;
+}
+.prod_sim{
+  margin-top: 4rem;
+}
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+
+.chaussure1{
+  width: 180%;
+}
+
+img[alt="Chaussure1"]{
+  width: 100%;
+  background: transparent;
+}
+
+.avis h2, .prod_sim h2{
+  margin: 15px 0;
+  font-size: 1.5rem;
+}
+
+.prix_test{
+  margin-top: 15px;
+}
+
+.group-p{
+  margin: 15px 0;
+}
+
+.group-p p:nth-child(2){
+  margin-left: 10px;
+}
+
+.flex{
+  display: flex;
+  margin-top: 50px;
+}

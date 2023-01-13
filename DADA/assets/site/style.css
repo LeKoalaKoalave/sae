@@ -1,0 +1,490 @@
+html{
+    background-color: #EEEEEE;
+}
+
+body{
+    font-family: 'prima_sansregular', sans-serif;
+}
+
+@font-face {
+    font-family: 'prima_sansregular';
+    src: url(../../font/prima_sans_regular-webfont.woff2) format('woff2'),
+         url(../../font/prima_sans_regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+*{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+*/
+
+header .header1{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header .header1 img{
+    padding-left: 2rem;
+}
+
+header .header1 a{
+    color: #26B82E;
+}
+header .header1 .takecare{
+    padding-top: 5rem;
+    padding-right: 20px;
+}
+
+header .header2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+header .header2 .boutonheader2 a{
+    width: 50%;
+    background-color: #BC2F26;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    border-radius: 2px;
+    align-items: center;
+}
+
+header .header2 .boutonheader2 a:hover{
+    background-color: #9E2F26;
+}
+
+header .header2 .divpanier{
+/*    width: 50%;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-end;*/
+/*    text-align: right;*/
+/*    background-color: black;*/
+    margin-left: 50%;
+    position: relative;
+}
+
+.notif{
+  position: absolute;
+  background-color: red;
+  color: white;
+  border-radius: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  top: 30px;
+  right: 2px;
+}
+
+header .header2 .divpanier a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Texte sous l'icone panier qui s'affiche en bleu mais seulement sur la page panier*/
+.txtpanier_surpagepanier{
+    color: #36B9C4;
+}
+
+
+/*
+header .header2 .divpanier p{
+    background-color: black;
+}
+*/
+
+/*
+header .header2 .divpanier img{
+        background-color: black;
+
+}*/
+
+/* Magasin -----------------------------------------*/
+
+.central{
+    /* width: 60%;
+    border: #878787 solid 2px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 0.4rem;
+    margin-top: 5rem; */
+    width: 60%;
+    border: #878787 solid 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 0.4rem;
+}
+
+.produit{
+/*
+    justify-content: center;
+    display: flex;
+    border-radius: 2rem;
+    align-items: center;
+*/
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.photo{
+/*
+    width: 20%;
+    height: 100%;
+    padding-top:2rem ;
+    display: flex;
+    align-items: center;
+*/
+    width: 20%;
+    height: 100%;
+    margin-top: auto;
+    margin-left: 1.5rem;
+    margin-bottom: auto;
+    align-items: center;
+}
+
+.photo img{
+    width: 80%;
+    height: auto;
+}
+
+/*Pour que la photo renvoie sur l'article*/
+.photo a{
+    text-decoration: none;
+    color: black;
+}
+
+.text{
+/*
+    width: 85%;
+    text-align: left;
+    justify-content: right;
+    margin-right: 2rem;
+    
+*/
+    width: 65%;
+    padding: 1rem;
+}
+
+/*Pour que le text renvoie sur l'article*/
+.text a{
+/*
+    text-decoration: none;
+    color: black;
+*/
+    color: #494949;
+    text-decoration: none;
+    font-size: 180%;
+    font-weight: 700;
+}
+
+.text p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.price{
+/*
+    display: grid;
+    width: 15%;
+    font-weight: 700;
+    padding: 1rem;
+    border-left: rgb(148, 148, 148) solid 1.5px;
+*/
+    width: 15%;
+    border-left: solid rgb(196, 196, 196) 2px;
+}
+
+.price p{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-weight: 700;
+}
+.price img{
+/*
+    background-color: aqua;
+    padding: 0.4rem;
+    margin-top: 2rem;
+    border-radius: 0.8rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+*/
+    background-color: #27B4BC;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 2.5rem;
+    padding: 5px;
+    margin-bottom: 30%;
+}
+
+/*
+.top{
+    background-color: #26B82E;
+}
+.mid{
+    display: block;
+    flex-direction: column;
+}
+*/
+
+/* Panier ------------------------------------------*/
+
+/*
+.circular-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px; 
+    background-color: #1E90FF; 
+    color: #fff; 
+    border: none; 
+    font-size: 16px;
+    cursor: pointer; 
+  }
+*/
+
+.block-panier{
+    display: flex;
+    align-items: flex-start;
+}
+
+/*-----Partie gauche du panier-----*/
+.gauche-panier{
+    background-color: white;
+    width: 75%;
+    display: block;
+    padding: 15px;
+    margin: 0 10px;
+    border: solid 2px #6CA2C5;
+    border-radius: 10px;
+}
+
+.gauche-panier > h2{
+    padding: 15px 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.tr1{
+    border-bottom: 1px solid #6CA2C5;
+    color: grey;
+    font-weight: bold;
+}
+
+td{
+    padding: 15px;
+}
+
+.center{
+    text-align: center;
+}
+
+.designationContenue{
+    display: flex;
+/*    flex-direction: row;*/
+    align-items: center;
+}
+
+/*
+.right{
+    text-align: right;
+    width: 100%;
+}
+*/
+
+.gauche-panier h2{
+    font-weight: 700;
+}
+
+/*-----Partie droite du pannier-----*/
+.droite-panier{
+    background-color: white;
+    width: 25%;
+    display: block;
+    margin: 0 10px;
+    padding: 15px;
+    border: solid 2px #6CA2C5;
+    border-radius: 10px;
+}
+
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+
+.space_price{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    display: block;
+    background: #6CA2C5;
+}
+
+.lineg{
+    width: 100%;
+    height: 1px;
+    display: block;
+    background: grey;
+}
+
+.total_price{
+    font-size: 2rem;
+    color: blue;
+    font-weight: bold;
+}
+
+.pay{
+    width: 100%;
+    padding: 15px;
+    background-color: #03BFFE;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards img{
+    width: 100%;
+  }
+
+.bleupanier img{
+    background-color: #016E9D;
+    border-radius: 0.4rem;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.quantiteContenue{
+    display: flex;
+    align-items: center;
+}
+
+.txtDesignation{
+    padding-left: 8rem;
+}
+
+.pay{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    width: 90%;
+}
+
+.pay:hover{
+    background-color: #04A8FE;
+}
+
+/* Article -----------------------------------------*/
+
+.millieu{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 5rem;
+    text-decoration: none;
+}
+.panier{
+    background-color: #BC2F26;
+    padding: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    width: 15%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+.index img{
+    justify-content: left;
+}
+.index{
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+.bloc{
+    display: block;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    line-height: 150%;
+}
+.bloc h1{
+    color: #BC2F26;
+    font-size: 2rem;
+}
+
+.fond{
+    background-color: white;
+
+}
+.avis-text{
+    margin-left: 0.6rem;
+}
+.pro{
+    align-items: flex-start;
+    display: flex;
+    justify-items:flex-start;
+    width: 80%;
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
+.avis{
+    padding-top: 5rem;
+}
+.shoes{
+    padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-weight: bold;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 5rem;
+}
+.ps img{
+    max-height: 250px;
+}
+.ps{
+    margin-top: 4rem;
+}
